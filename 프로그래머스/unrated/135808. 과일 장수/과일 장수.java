@@ -5,8 +5,8 @@ class Solution {
         int answer = 0;
         int i = score.length - m;
         while (i >= 0) {
-          answer += score[i] * m;
-        i -= m;
+            answer += score[i] * m;
+            i -= m;
         }
         return answer;
     }
