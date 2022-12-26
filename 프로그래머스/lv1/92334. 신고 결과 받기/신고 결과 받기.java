@@ -5,7 +5,7 @@ class Solution {
         // 신고된사람 / 신고한사람들
 		Map<String, HashSet<String>> reported = new HashMap<>();
 		List<String> users = Arrays.asList(id_list);
-        // map에 신고한사람 이름 넣기
+        // map에 신고된 사람 이름 넣기
 		for (String reporter : id_list) {
 			HashSet<String> reportedUsers = new HashSet<>();
 			reported.put(reporter, reportedUsers);
