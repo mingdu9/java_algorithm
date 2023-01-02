@@ -22,7 +22,7 @@ class Solution {
 		while (sum1 != sum2) {
             // 실행 횟수 제한을 큐1 * 3으로 둠
             // 왠진 모르겟음... 큐1 * 큐2 하면 틀림
-			if(answer > q1.size() + q2.size() + 1) return -1;
+			if(answer > queue1.length * 2 + 1) return -1;
             // 큐1이 큐2보다 크면
 			if (sum1 > sum2) {
 				sum1 -= q1.peek();
