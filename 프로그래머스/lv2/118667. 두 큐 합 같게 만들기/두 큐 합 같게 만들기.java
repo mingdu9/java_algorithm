@@ -5,6 +5,7 @@ class Solution {
 		long sum = 0, sum1 = 0, sum2 = 0;
 		Queue<Integer> q1 = new LinkedList<>();
 		Queue<Integer> q2 = new LinkedList<>();
+        // 
 		for (int i = 0; i < queue1.length; i++) {
 			q1.offer(queue1[i]);
 			q2.offer(queue2[i]);
