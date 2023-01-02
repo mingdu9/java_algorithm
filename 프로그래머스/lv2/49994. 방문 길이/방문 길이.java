@@ -1,6 +1,7 @@
 import java.util.*;
 class Solution {
     public int solution(String dirs) {
+        // 방문했던 점 대신 선을 저장하기 위해 0.5 단위로 저장
         float[] location = { 0, 0 };
 		Set<String> set = new HashSet<>();
 		for (char ch : dirs.toCharArray()) {
