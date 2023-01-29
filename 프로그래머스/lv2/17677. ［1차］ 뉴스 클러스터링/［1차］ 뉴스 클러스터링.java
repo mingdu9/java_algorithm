@@ -7,8 +7,8 @@ class Solution {
     ArrayList<String> a = new ArrayList<>();
     ArrayList<String> b = new ArrayList<>();
 
-    ArrayList<String> cup = new ArrayList<>();
-    ArrayList<String> cap = new ArrayList<>();
+    ArrayList<String> cup = new ArrayList<>(); // 합집합
+    ArrayList<String> cap = new ArrayList<>(); // 교집합
 
     makeSet(str1, a);
     makeSet(str2, b);
